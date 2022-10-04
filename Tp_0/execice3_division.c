@@ -1,7 +1,7 @@
 
 #include <stdio.h>
-int a = 6;
-int b = 4;
+double a = 6;
+double b = 4;
 double division;
 int main ()
 {
