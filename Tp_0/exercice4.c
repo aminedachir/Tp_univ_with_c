@@ -1,9 +1,11 @@
 #include <stdio.h>
-int a = 4;
-int b = 3;
-int x;
+int a,b,x;
 int main ()
 {
+    printf("Donnez la valeur de a :");
+    scanf("%d", &a);
+    printf("Donnez la valeur de b :");
+    scanf("%d", &b);
     x = a;
     a = b;
     b = x;
