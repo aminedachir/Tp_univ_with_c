@@ -1,7 +1,7 @@
 #include <stdio.h>
-int a = 10;
-int b = 20;
-int somme ;
+int a;
+int b;
+int somme;
 
 int main ()
 {
