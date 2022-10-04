@@ -9,7 +9,9 @@ int main ()
     printf("Entrez la valeur de c:");
     scanf("%d", &c);
     delta = b*b-4*a*c;
-    printf("%d\n", delta);
+    printf("Delta : %d\n", delta);
     X1 = (-b-(delta/8))/(2*a);
-    printf("%d", X1);
+    printf("X1 : %d\n", X1);
+    X2 = (-b+(delta/8))/(2*a);
+    printf("X1 : %d", X2);
 }
