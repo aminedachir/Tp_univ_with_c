@@ -7,3 +7,4 @@ int main ()
     reset = a%b;
     printf("la division est : %f", reset);
 }
+
