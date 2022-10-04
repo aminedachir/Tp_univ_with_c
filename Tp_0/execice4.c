@@ -1,10 +1,12 @@
 #include <stdio.h>
-int a;
-int b;
+int a = 4;
+int b = 3;
+int x;
 int main ()
 {
-    printf("donnez la valeur de a : ");
-    scanf("%d", &a);
-    printf("donnez la valeur de b : ");
-    scanf("%d", &b);
+    x = a;
+    a = b;
+    b = x;
+    printf("a: %d\n", a);
+    printf("b: %d", b);
 }
