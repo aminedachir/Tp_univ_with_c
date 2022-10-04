@@ -1,10 +1,10 @@
 #include <stdio.h>
-int a = 6;
-int b = 4;
+int a = 10;
+int b = 3;
 int reset;
 int main ()
 {
     reset = a%b;
-    printf("la division est : %f", reset);
+    printf("la division est : %d", reset);
 }
 
