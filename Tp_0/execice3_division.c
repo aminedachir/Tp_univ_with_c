@@ -2,7 +2,7 @@
 #include <stdio.h>
 int a = 6;
 int b = 4;
-float division;
+double division;
 int main ()
 {
     division = a/b;
