@@ -6,7 +6,9 @@ int somme;
 int main ()
 {
     printf("Entrez la valeur de a :");
-    scanf("%d", a);
+    scanf("%d", &a);
+    printf("Entrez la valeur de b :");
+    scanf("%d", &b);
     somme = a+b;
-    printf("la somme est : %d", somme);
+    printf("La somme est : %d", somme);
 }
