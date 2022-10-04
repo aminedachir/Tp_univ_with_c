@@ -5,6 +5,6 @@ int reset;
 int main ()
 {
     reset = a%b;
-    printf("la division est : %d", reset);
+    printf("le reset est : %d", reset);
 }
 

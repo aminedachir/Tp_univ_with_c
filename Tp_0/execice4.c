@@ -1,7 +1,6 @@
 #include <stdio.h>
 int a;
 int b;
-
 int main ()
 {
     printf("donnez la valeur de a : ");
