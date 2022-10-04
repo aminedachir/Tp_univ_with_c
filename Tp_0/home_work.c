@@ -10,8 +10,8 @@ int main ()
     scanf("%d", &c);
     delta = b*b-4*a*c;
     printf("Delta : %d\n", delta);
-    X1 = (-b-(delta/8))/(2*a);
+    X1 = (-b-(sqrt(delta)))/(2*a);
     printf("X1 : %d\n", X1);
-    X2 = (-b+(delta/8))/(2*a);
+    X2 = (-b+(sqrt(delta)))/(2*a);
     printf("X2 : %d", X2);
 }
