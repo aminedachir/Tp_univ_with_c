@@ -13,5 +13,5 @@ int main ()
     X1 = (-b-(delta/8))/(2*a);
     printf("X1 : %d\n", X1);
     X2 = (-b+(delta/8))/(2*a);
-    printf("X1 : %d", X2);
+    printf("X2 : %d", X2);
 }
