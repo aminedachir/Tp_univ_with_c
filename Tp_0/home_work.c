@@ -1,5 +1,5 @@
 #include <stdio.h>
-int a,b,c,delta,X1,X2,jdr1,jdr2;
+int a,b,c,delta,X1,X2;
 int main ()
 {
     printf("Entrez la valeur de a:");
@@ -10,8 +10,6 @@ int main ()
     scanf("%d", &c);
     delta = b*b-4*a*c;
     printf("%d\n", delta);
-    jdr1 = -b-(delta/8);
-    jdr2 = 2*a;
-    X1 = jdr1/jdr2;
+    X1 = (-b-(delta/8))/(2*a);
     printf("%d", X1);
 }
