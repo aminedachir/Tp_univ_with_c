@@ -1,6 +1,5 @@
 #include <stdio.h>
-int a,b;
-int multiplication;
+int a,b,multiplication;
 int main ()
 {
     printf("Donnez la valeur de a :");

@@ -1,7 +1,5 @@
 #include <stdio.h>
-float a;
-float b;
-float division;
+float a,b,division;
 int main ()
 {
     printf("Entrez la valeur de a :");

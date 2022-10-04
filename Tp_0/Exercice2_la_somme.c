@@ -1,6 +1,5 @@
 #include <stdio.h>
-int a,b;
-int somme;
+int a,b,somme;
 int main ()
 {
     printf("Entrez la valeur de a :");
