@@ -15,7 +15,7 @@ int main ()
         X1 = (-b-(sqrt(delta)))/(2*a);
         printf("X1 : %d\n", X1);
         X2 = (-b+(sqrt(delta)))/(2*a);
-        printf("X2 : %d", X2);
+        printf("X2 : %d\n", X2);
     }
     else if (delta == 0){
         X = ((-b)/2*a);
