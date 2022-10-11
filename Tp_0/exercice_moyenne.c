@@ -12,8 +12,8 @@ int main ()
     scanf("%d", &d);
     moyenne = (a+b+c+d)/4;
     printf("Moyenne : %d\n",moyenne);
-    if (moyenne > 10 && moyenne < 20){
-        printf("succed");
+    if (moyenne >= 10 && moyenne < 20){
+        printf("Succed");
     }
     else if  (moyenne > 0 && moyenne < 10) {
         printf("Failed");
