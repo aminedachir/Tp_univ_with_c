@@ -1,17 +1,17 @@
 #include <stdio.h>
-int a,b,c,d,moyenne;
+float a,b,c,d,moyenne;
 int main ()
 {
     printf("donnez la valeur de a : ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("donnez la valeur de b : ");
-    scanf("%d", &b);
+    scanf("%f", &b);
     printf("donnez la valeur de c : ");
-    scanf("%d", &c);
+    scanf("%f", &c);
     printf("donnez la valeur de d : ");
-    scanf("%d", &d);
+    scanf("%f", &d);
     moyenne = (a+b+c+d)/4;
-    printf("Moyenne : %d\n",moyenne);
+    printf("Moyenne : %f\n",moyenne);
     if (moyenne >= 10 && moyenne < 20){
         printf("Succed");
     }
