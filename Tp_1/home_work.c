@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int a,b,c,delta,X1,X2,X;
 int main ()
 {
