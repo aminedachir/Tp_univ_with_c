@@ -6,7 +6,6 @@ int main ()
     scanf("%d", &number);
     if (number < 0) {
         printf("La valeur absolue est : %d",- number);
-    }
     else {
         printf("La valeur absolue est : %d", number);
     }
