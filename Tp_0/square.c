@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 float num, jdhr;
 int main ()
 {
