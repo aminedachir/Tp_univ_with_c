@@ -13,7 +13,10 @@ int main () {
         for (int i=0;i<=(num_des_copies-30);i++){
             prix_3DA = i*3;
             }
+        prix = prix_5DA + prix_4DA + prix_3DA;
+        printf("La facture est : %d DA", prix);
         }
-    prix = prix_5DA + prix_4DA + prix_3DA;
-    printf("La facture est : %d DA", prix);
+    else {
+        printf("Error");
+    }
 }

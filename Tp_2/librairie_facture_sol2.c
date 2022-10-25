@@ -13,6 +13,9 @@ int main () {
         else if (i>30){
             prix_3DA = (i-30)*3;
         }
+        else {
+            printf("Error");
+        }
     }
     prix = prix_3DA+prix_4DA+prix_5DA;
     printf("%d",prix);
