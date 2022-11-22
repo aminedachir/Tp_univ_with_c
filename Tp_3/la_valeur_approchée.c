@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int n,f;
 float x,s,m;
 int main()
@@ -7,12 +8,11 @@ int main()
     scanf("%f",&x);
     printf("Entrez une valeur de n: ");
     scanf("%d",&n);
-    s=0;
-    m=0;
+    s=1;
+    m=1;
     printf("S=");
-    for (int i=0;i<=n;i++){
+    for (int i=1;i<=n;i++){
         m = m*x;
-        m++;
         f=1;
         for(int j=1;j<=i;j++){
             f = f*j;
@@ -20,8 +20,9 @@ int main()
         if(i<1){printf("%.0f+",m);}
         else if (i==1){printf("x/%d+",f);}
         else {printf("(x^%d)/%d!",i,i);}
-        s = s + (x/f);
+        s = s + (m/f);
         if(i>1&&i<n){printf("+");}
     }
-    printf("=%.2f",s);
+    printf("=%.2f\n",s);
+    printf("%f",exp(x));
 }
