@@ -17,6 +17,6 @@ int main()
             max = table[i];
         }
     }
-    printf("Min : %d\n",min);
-    printf("Max : %d\n",max);
+    printf("Le Minimum est  : %d\n",min);
+    printf("Le Maximum est  : %d\n",max);
 }
