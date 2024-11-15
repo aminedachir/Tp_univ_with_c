@@ -18,8 +18,7 @@ int main(){
     int n;
     printf("Enter the number : ");
     scanf("%d",&n);
-    perfect(n);
-    if (perfect(n)==true){
+    if (perfect(n)){
         printf("the number is perfect");
     }
     else{
