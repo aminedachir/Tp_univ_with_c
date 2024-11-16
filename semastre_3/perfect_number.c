@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
-bool perfect(int n){
+
+bool perfect(long n){
     int s=0;
-    for (int i=1;i<n;i++){
+    for (int i=1;i<=n/2;i++){
          if(n%i == 0){
              s = s+i;
          }
@@ -15,14 +16,20 @@ bool perfect(int n){
     }
 }
 int main(){
-    int n;
-    printf("Enter the number : ");
-    scanf("%d",&n);
-    if (perfect(n)){
-        printf("the number is perfect");
-    }
-    else{
-        printf("the number is not perfect");
+    int a;
+    scanf("%d",&a);
+    int i = 0;
+    long n;
+    while (i<a)
+    {
+        scanf("%ld",&n);
+        if (perfect(n)){
+            printf("the number %ld is perfect\n",n);
+        }
+        else{
+            printf("the number is %ld not perfect\n",n);
+        }
+        i++;
     }
 
 }
