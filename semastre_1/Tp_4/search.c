@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-char ch[50];
-int s_vo,s_co,s_no,s_char;
+
 int main()
 {
-    s_vo = 0;
-    s_co = 0;
-    s_no = 0;
-    s_char = 0;
+    int s_vo = 0;
+    int s_co = 0;
+    int s_no = 0;
+    int s_char = 0;
     printf("Entrez un Mot :");
-    scanf("%s",&ch);
+    char ch[50];
+    scanf("%s",&ch[50]);
     for(int i=0;i<strlen(ch);i++){
         if((ch[i]=='a' || ch[i]=='e') || (ch[i]=='u' || ch[i]=='o') || (ch[i]=='i' || ch[i]=='y')){
             s_vo+=1;

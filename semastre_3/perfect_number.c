@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdbool.h>
-
 bool perfect(long n){
     int s=0;
     for (int i=1;i<=n/2;i++){
@@ -18,9 +17,8 @@ bool perfect(long n){
 int main(){
     int a;
     scanf("%d",&a);
-    int i = 0;
     long n;
-    while (i<a)
+    for(int i=0;i<a;i++)
     {
         scanf("%ld",&n);
         if (perfect(n)){
@@ -29,7 +27,6 @@ int main(){
         else{
             printf("the number is %ld not perfect\n",n);
         }
-        i++;
     }
 
 }

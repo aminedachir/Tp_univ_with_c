@@ -11,4 +11,3 @@ the number is 8230 not perfect
 the number is 33550334 not perfect
 the number 33550336 is perfect
 the number is 33550338 not perfect
-the number is 33550338 not perfect
