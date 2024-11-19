@@ -9,10 +9,12 @@ bool perfect(int i,int s, long n){
         }
     }
     else{
+        // skip the value 1 because the number 1 devided all the numbers
         return s==n-1;
     }
 }
 int main(){
+    // the variable a containe the value of the number of inputs
     int a;
     scanf("%d",&a);
     long n;

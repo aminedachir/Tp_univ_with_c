@@ -1,0 +1,13 @@
+the number 6 is perfect
+the number is 7 not perfect
+the number 28 is perfect
+the number is 29 not perfect
+the number is 30 not perfect
+the number 496 is perfect
+the number is 498 not perfect
+the number is 500 not perfect
+the number 8128 is perfect
+the number is 8230 not perfect
+the number is 33550334 not perfect
+the number 33550336 is perfect
+the number is 33550338 not perfect
