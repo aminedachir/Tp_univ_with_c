@@ -1,13 +1,13 @@
-the number 6 is perfect
-the number is 7 not perfect
-the number 28 is perfect
-the number is 29 not perfect
-the number is 30 not perfect
-the number 496 is perfect
-the number is 498 not perfect
-the number is 500 not perfect
-the number 8128 is perfect
-the number is 8230 not perfect
-the number is 33550334 not perfect
-the number 33550336 is perfect
-the number is 33550338 not perfect
+the number 6 : is perfect
+the number 7 : is not perfect
+the number 28 : is perfect
+the number 29 : is not perfect
+the number 30 : is not perfect
+the number 496 : is perfect
+the number 498 : is not perfect
+the number 500 : is not perfect
+the number 8128 : is perfect
+the number 8230 : is not perfect
+the number 33550334 : is not perfect
+the number 33550336 : is perfect
+the number 33550338 : is not perfect
