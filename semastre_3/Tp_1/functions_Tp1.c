@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swap(int table[],int i,int k){
+int swap(int table[],int i,int k){
     int x = table[i];
     table[i] = table[k];
     table[k] = x; 
@@ -44,6 +44,7 @@ void reverse_table(int n,int table[n]){
     }
     printf("\n");
 }
+
 void reverse_without_table(int n,int table[n]){
     int k=n-1;
     for (int i=0;i<n/2;i++){
