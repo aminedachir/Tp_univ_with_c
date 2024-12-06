@@ -34,10 +34,8 @@ int selection_sort(int n,int table[n]){
 void reverse_table(int n,int table[n]){
     int table_1[n];
     int index = 0;
-    for (int i=n-1 ; i>= 0 ; i--)
-    {
-            table_1[index] = table[i];
-            index++;
+    for (int i=n-1;i>=0;i--){
+            table_1[index++] = table[i];
     } 
     for(int i=0;i<n;i++){
         printf("%d ",table_1[i]);
@@ -48,10 +46,6 @@ void reverse_table(int n,int table[n]){
 void reverse_without_table(int n,int table[n]){
     int k=n-1;
     for (int i=0;i<n/2;i++){
-        swap(table,i,k);
-        k--;
+        swap(table,i,k--);
     }
 }
-
-
-
