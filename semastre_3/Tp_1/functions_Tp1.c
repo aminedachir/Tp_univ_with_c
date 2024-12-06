@@ -41,6 +41,16 @@ void reverse_table(int n,int table[n]){
     }
     printf("\n");
 }
+void reverse_without_table(int n,int table[n]){
+    int k=n-1;
+    int x;
+    for (int i=0;i<n/2;i++){
+        x = table[i];
+        table[i] = table[k];
+        table[k] = x;
+        k--;
+    }
+}
 
 
 
