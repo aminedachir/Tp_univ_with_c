@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-int swap(int table[],int i,int k){
-    int x = table[i];
-    table[i] = table[k];
-    table[k] = x; 
-}
-
 void registre_table(int n,int table[n]){
     for (int i=0;i<n;i++){
         scanf("%d,",&table[i]);
@@ -17,6 +11,12 @@ void print_table(int n,int table[n]){
         printf("%d ",table[i]);
     }
     printf("\n");
+}
+
+int swap(int table[],int i,int k){
+    int x = table[i];
+    table[i] = table[k];
+    table[k] = x; 
 }
 
 int selection_sort(int n,int table[n]){
