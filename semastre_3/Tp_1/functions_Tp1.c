@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+void swap(int table[],int i,int k){
+    int x = table[i];
+    table[i] = table[k];
+    table[k] = x; 
+}
+
 void registre_table(int n,int table[n]){
     for (int i=0;i<n;i++){
         scanf("%d,",&table[i]);
@@ -14,7 +20,6 @@ void print_table(int n,int table[n]){
 }
 
 int selection_sort(int n,int table[n]){
-    int x;
     for(int i=0;i<n-1;i++){
         int min = i;
         for(int j=i+1;j<n;j++){
@@ -22,9 +27,7 @@ int selection_sort(int n,int table[n]){
                 min = j;
             }
         }
-        x = table[i];
-        table[i] = table[min];
-        table[min] = x;
+        swap(table,i,min);
     }
 }
 
@@ -43,11 +46,8 @@ void reverse_table(int n,int table[n]){
 }
 void reverse_without_table(int n,int table[n]){
     int k=n-1;
-    int x;
     for (int i=0;i<n/2;i++){
-        x = table[i];
-        table[i] = table[k];
-        table[k] = x;
+        swap(table,i,k);
         k--;
     }
 }

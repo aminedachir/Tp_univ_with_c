@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "functions_Tp2.c"
+#include "functions_Tp1.c"
 
 int main(){
     int n;
