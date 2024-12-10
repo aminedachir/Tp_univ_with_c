@@ -6,12 +6,14 @@ void registre_table(int n,int table[n]){
     }
 }
 
+
 void print_table(int n,int table[n]){
     for(int i=0;i<n;i++){
         printf("%d ",table[i]);
     }
     printf("\n");
 }
+
 
 int swap(int table[],int i,int k){
     int x = table[i];
