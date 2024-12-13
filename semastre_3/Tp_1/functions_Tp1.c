@@ -6,14 +6,12 @@ void registre_table(int n,int table[n]){
     }
 }
 
-
 void print_table(int n,int table[n]){
     for(int i=0;i<n;i++){
         printf("%d ",table[i]);
     }
     printf("\n");
 }
-
 
 int swap(int table[],int i,int k){
     int x = table[i];
@@ -51,3 +49,15 @@ void reverse_without_table(int n,int table[n]){
         swap(table,i,k--);
     }
 }
+int nombre_total(int n,int table[n]){
+    int s = 0;
+    for(int i=0;i<n;i++){
+        s += table[i];
+    }
+    return s*2;
+}
+/*
+void add_element(int n,int table_[n],int pos,int number){
+    table_[pos] = number
+    
+}*/
