@@ -81,9 +81,8 @@ void merge_sort(int n,int table[n],int left,int right){
     }
 }
 int partition(int n,int table[n],int left,int right){
-    int pivot;
+    int pivot = table[right];
     int i = left-1;
-    pivot = table[right];
     for(int j=left;j<right;j++){
         if(table[j]<pivot){
             i++;
