@@ -80,6 +80,30 @@ void merge_sort(int n,int table[n],int left,int right){
         Merge(n,left,mid,right,table);
     }
 }
+int partition(int n,int table[n],int left,int right){
+    int pivot;
+    int i = left-1;
+    pivot = table[right];
+    for(int j=left;j<right;j++){
+        if(table[j]<pivot){
+            i++;
+            int temp = table[i];
+            table[i] = table[j];
+            table[j] = temp;
+        }
+    }
+    int temp = table[i+1];
+    table[i+1] = table[right];
+    table[right] = temp;
+    return i+1;
+}
+void quick_sort(int n,int table[n],int left,int right){
+    if(left<right){
+        int pivot_ = partition(n,table,left,right);
+        quick_sort(n,table,left,pivot_-1);
+        quick_sort(n,table,pivot_+1,right);
+    }
+}
 int main (){
     int n;
     scanf("%d",&n);
@@ -87,7 +111,7 @@ int main (){
     for(int i=0;i<n;i++){
         scanf("%d,",&table[i]);
     }
-    selection_sort(n,table);
+    quick_sort(n,table,0,n-1);
     for(int i=0;i<n;i++){
         printf("%d ",table[i]);
     }
