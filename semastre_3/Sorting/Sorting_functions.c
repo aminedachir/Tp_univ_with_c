@@ -13,7 +13,6 @@ void selection_sort(int n,int table[n]){
 
     }
 }
-
 void bubble_sort(int n,int table[n]){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
