@@ -10,7 +10,9 @@ void selection_sort(int n,int table[n]){
         z = table[min];
         table[min] = table[i];
         table[i] = z;
-
+/*
+    complexity : O(n^2)
+*/
     }
 }
 void bubble_sort(int n,int table[n]){
@@ -23,6 +25,11 @@ void bubble_sort(int n,int table[n]){
             }
         }
     }
+/*
+    best case : O(n)
+    average case : O(n)
+    worst case : O(n^2)
+*/
 }
 void insertion_sort(int n,int table[n]){
     int key,j;
@@ -35,6 +42,11 @@ void insertion_sort(int n,int table[n]){
         }
         table[j+1] = key;
     }
+/*
+    best case : O(n)
+    average case : O(n^2)
+    worst case : O(n^2)
+*/
 }
 void Merge(int n,int l,int mid,int r,int table[n]){
     int n1 = mid-l +1;
@@ -79,6 +91,9 @@ void merge_sort(int n,int table[n],int left,int right){
         merge_sort(n,table,mid+1,right);
         Merge(n,left,mid,right,table);
     }
+/*
+    complexity : O(n log n)
+*/
 }
 int partition(int n,int table[n],int left,int right){
     int pivot = table[right];
@@ -102,6 +117,11 @@ void quick_sort(int n,int table[n],int left,int right){
         quick_sort(n,table,left,pivot_-1);
         quick_sort(n,table,pivot_+1,right);
     }
+/*
+    Best Case: O(n log n)
+    Average Case: O(n log n)
+    Worst Case: O(n^2)
+*/
 }
 int main (){
     int n;
